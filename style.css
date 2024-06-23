@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+}
+.navbar{
+    height: 65px;
+    width: 100%;
+    background-color: rgb(1, 1, 57);
+    color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+#Game{
+    background-color: black;
+    margin: 2px;
+    padding: 4px;
+    border: 2px solid rgb(1, 1, 57);
+    border-radius: 8px;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+#img1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#img1:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#img2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#img2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#img3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#img3:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#user-score, 
+#comp-score{
+    font-size: 4rem;
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+#msg{
+    font-size: 2rem;
+    background-color: rgb(1, 1, 57);
+    color:#fff;
+    display: inline;
+    border-radius: 1rem;
+    padding: 1rem;
+}
